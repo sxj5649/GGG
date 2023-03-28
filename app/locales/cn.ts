@@ -1,7 +1,7 @@
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写授权码。",
+    Unauthorized: "现在是未授权状态，请在设置页填写授权码，如果没有授权码，请联系微信icando12138备注授权码领取一次免费的授权码，授权码的有效时间为三天，如果觉得用着还可以，请支持一下开发者，支付宝账号19153587826，请勿用于非法用途",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -69,11 +69,7 @@ const cn = {
       Title: "历史消息长度压缩阈值",
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
-    Token: {
-      Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过受控访问限制",
-      Placeholder: "OpenAI API Key",
-    },
+   
     AccessCode: {
       Title: "访问码",
       SubTitle: "现在是受控访问状态",
@@ -96,7 +92,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    Error: "出错了，请联系开发者icando12138",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
@@ -109,7 +105,7 @@ const cn = {
   },
   Copy: {
     Success: "已写入剪切板",
-    Failed: "复制失败，请赋予剪切板权限",
+    Failed: "复制失败，请赋予剪切板权限,解决不了请联系开发者icando12138",
   },
 };
 
