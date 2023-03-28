@@ -4,7 +4,7 @@ const en: LocaleType = {
   WIP: "WIP...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in settings page.",
+      "If there is no authorization code, please contact wechat icando12138 Remarks Authorization code to get a free authorization code. The validity period of the authorization code is three days. If you think it is OK to use, please support the developer",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
@@ -102,7 +102,7 @@ const en: LocaleType = {
   Store: {
     DefaultTopic: "New Conversation",
     BotHello: "Hello! How can I assist you today?",
-    Error: "Something went wrong, please try again later.",
+    Error: "Error, please contact developer icando12138",
     Prompt: {
       History: (content: string) =>
         "This is a summary of the chat history between the AI and the user as a recap: " +
@@ -116,7 +116,7 @@ const en: LocaleType = {
   },
   Copy: {
     Success: "Copied to clipboard",
-    Failed: "Copy failed, please grant permission to access clipboard",
+    Failed: "Copy failed, please grant clipboard permission, can not solve please contact the developer icando12138",
   },
 };
 
